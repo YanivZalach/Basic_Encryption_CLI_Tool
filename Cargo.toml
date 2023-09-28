@@ -1,5 +1,5 @@
 [package]
-name = "enc_dec_cli"
+name = "rustycipher"
 version = "0.1.0"
 edition = "2021"
 
