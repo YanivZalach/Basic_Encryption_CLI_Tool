@@ -48,6 +48,20 @@ To encrypt a text file, run the following command (for decryption change the `-e
 ~/Documents/RustyCipher/target/release/rustycipher -h
 ```
 
+### For Esey of use
+
+Add the following line to your `~/.bashrc`/`~/.zshrc`/`~/.config/fish/config.fish`:
+
+```shell
+alias rustycipher='$HOME/Documents/RustyCipher/target/release/rustycipher'
+```
+
+Now, you can use RustyCipher simply by typing `rustycipher` in your terminal!
+
+```shell
+rustycipher
+```
+
 ## ⚠️ Disclaimer
 
 RustyCipher is designed for educational and basic encryption purposes only. It uses a basic encryption algorithm that may not provide strong security. It should not be used for encrypting sensitive or critical data. For serious security needs, consider using established encryption tools and libraries.
