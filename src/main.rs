@@ -28,9 +28,9 @@ fn main() {
 fn help() {
     println!(
         "Encryption Decryption basic CLI tool\n
-        -- -h        Help
+        rustycipher -h        Help
         Structure:\n
-            decrypt:    Commend -- -d relative_file_path key\n
-            encrypt:    Commend -- -e relative_file_path key"
+            decrypt:    rustycipher -d file_path key\n
+            encrypt:    rustycipher -e file_path key"
     );
 }
