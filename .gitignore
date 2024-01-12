@@ -3,3 +3,6 @@
 
 # Ignoring Cargo.lock
 Cargo.lock
+
+# Ignoring local backup
+rs32-p-i-encryption_cli_tool/
